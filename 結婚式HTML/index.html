@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>結婚式メニュー表</title>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="./WeddingFiles/WeddingMAndSAnimationButton.css">
+  <link rel="stylesheet" type="text/css" href="./WeddingFiles/WeddingMAndSScroll.css">
+  <link rel="stylesheet" type="text/css" href="./WeddingFiles/WeddingHeader.css">
+  <link rel="stylesheet" type="text/css" href="./WeddingFiles/WeddingFooter.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+  <!-- <div id="headerAnimationArea"></div> -->
+
+  <div id="headerArea">
+    <nav>
+      <ul>
+        <li class="headerItemCourseMenu"><a href="javascript:void(0)" onclick="scrollToCourseList()">コース</a></li>
+        <li class="headerItemDrinkMenu"><a href="javascript:void(0)" onclick="scrollToDrinkList()">ドリンク</a></li>
+        <li class="headerItemSpecialDrinkMenu"><a href="javascript:void(0)" onclick="scrollToSpecialDrinkList()">スペシャル</a></li>
+        <li class="headerItemSeat"><a href="javascript:void(0)" onclick="scrollToSeatingList()">座席表</a></li>
+        <li class="headerItemThanks"><a href="javascript:void(0)" onclick="scrollToThanksMessage()">メッセージ</a></li>
+      </ul>
+    </nav>
+   </div>
+
+   <div class="background">
+      <li id="backgroundTrandition"></li>
+      <li id="backgroundTrandition"></li>
+      <li id="backgroundTrandition">
+      </li>
+   </div>
+
+   <div class="title">
+      <h1 id="titleText">Welcome Wedding<br>Shogo&Megumi</h1>
+   </div>
+
+   <div class="pageTop">
+    <a href="#"></a>
+  </div>
+
+  <div id="courseList">
+    <h2 id="menuTitle"><span id="menuTitleSpan">Menu</span></h2>
+    <div class="menu">
+      <div class="leftMenu">
+        <p>真鯛のムースとコンソメゼリー</p>
+        <p>魚介と彩り野菜 海藻のチェイルを添えて</p>
+        <p>--マーメイドラグーンをイメージ--</p><br>
+        <p>タラバ蟹のカネロニ仕立て</p>
+        <p>イエローパプリカソースとレッドオレンジクーリ</p>
+        <p>--アメリカンウォータフロントをイメージ--</p><br>
+        <p>茸とベジタブルのブロス</p>
+        <p>のスモークとチキンのムース</p>
+        <p>--ロストリバーデルタをイメージ--</p><br>
+        <p>オマール海老とキノコのヴァロヴァン</p>
+        <p>ベアルネーズとアリッサ風味のロブスターソース</p>
+        <p>--アラビアンコーストをイメージ--</p><br>
+
+      </div>
+      <div class="rightMenu">
+        <p>牛フィレ肉とリ・ド・ヴォーのヴォルケーノ風</p>
+        <p>トリュフ風味の赤ワインソース</p>
+        <p>--ミステリアスアイランドをイメージ--</p><br>
+        <p>ブイヤベースのリゾット 魚介とともに</p>
+        <p>--メディテレーニアンハーバーをイメージ--</p><br>
+        <p>マンダリンゼリーとミント風味のメレンゲ</p>
+        <p>--ポートディスカバリーをイメージ--</p><br>
+        <p>紅茶のシブースト ベルガモットのソルベ添え</p><br>
+        <p>コーヒー</p>
+        <p>プティフール</p>
+        <p>ブレッドと海藻バター</p>
+      </div>
+
+    </div>
+  <!--/container--></div>
+
+  <div id="drinkList">
+    <h2 id="drinkMenuTitle"><span id="drinkMenuTitleSpan">Drink Menu</span></h2>
+    <div class="drinkMenu">
+      <div class="leftDrinkMenu">
+        <p id="drinkType">Sparkling Wine</p>
+        <p id="englishDrinkName">Fashion Victim Rose</p>
+        <p id="JapaneseDrinkName">ファッション・ヴィクティム ロゼ</p>
+        <p id="drinkType">White Wine</p>
+        <p id="englishDrinkName">Soave Classico</p>
+        <p id="JapaneseDrinkName">ソアヴェ クラッシコ</p>
+        <p id="drinkType">Red Wine</p>
+        <p id="englishDrinkName">Chianti Classico</p>
+        <p id="JapaneseDrinkName">キャンティ クラッシコ</p>
+        <p id="drinkType">Beer</p>
+        <p id="englishDrinkName">Beer</p>
+        <p id="JapaneseDrinkName">国産ビール</p>
+        <p id="drinkType">Non-Alcoholic Beer</p>
+        <p id="englishDrinkName">Non-Alcoholic Beer</p>
+        <p id="JapaneseDrinkName">ノンアルコールビールテイスト飲料</p>
+        <p id="drinkType">Sake</p>
+        <p id="englishDrinkName">Koshigoi</p>
+        <p id="JapaneseDrinkName">腰古井</p>
+        <p id="drinkType">Sho-Chu</p>
+        <p id="englishDrinkName">Kitchom</p>
+        <p id="JapaneseDrinkName">吉四六(麦焼酎)</p>
+        <p id="englishDrinkName">Kiccho Hozan</p>
+        <p id="JapaneseDrinkName">吉兆宝山(芋焼酎)</p>
+      </div>
+      <div class="centerDrinkMenu">
+        <p id="drinkType">Scotch</p>
+        <p id="englishDrinkName">Chivas Regal 12-Year</p>
+        <p id="JapaneseDrinkName">シーバスリーガル12年</p>
+        <p id="drinkType">Liqueur</p>
+        <p id="englishDrinkName">Limoncello</p>
+        <p id="JapaneseDrinkName">リモンチェッロ</p>
+        <p id="drinkType">Soft Drinks</p>
+        <p id="englishDrinkName">Apple Juice</p>
+        <p id="JapaneseDrinkName">アップルジュース</p>
+        <p id="englishDrinkName">Orange Juice</p>
+        <p id="JapaneseDrinkName">オレンジジュース</p>
+        <p id="englishDrinkName">Grapefruit Juice</p>
+        <p id="JapaneseDrinkName">グレープフルーツジュース</p>
+        <p id="englishDrinkName">Ginger Ale</p>
+        <p id="JapaneseDrinkName">ジンジャーエール</p>
+        <p id="englishDrinkName">Coca-Cola</p>
+        <p id="JapaneseDrinkName">コカ・コーラ</p>
+        <p id="englishDrinkName">Oolong Tea</p>
+        <p id="JapaneseDrinkName">ウーロン茶</p>
+        <p id="drinkType">Sparkling Water</p>
+        <p id="englishDrinkName">Sanpellegrino</p>
+        <p id="JapaneseDrinkName">サンペレグリノ</p>
+        <p id="drinkType">Tea</p>
+        <p id="englishDrinkName">Earl Grey</p>
+        <p id="JapaneseDrinkName">アールグレイ</p>
+        <p id="englishDrinkName">Jasmine</p>
+        <p id="JapaneseDrinkName">ジャスミン</p>
+        <p id="englishDrinkName">Rosehip</p>
+        <p id="JapaneseDrinkName">ローズヒップ</p>
+        
+      </div>
+      <div class="rightDrinkMenu">
+        <p id="drinkType">Cocktails</p>
+        <p id="englishDrinkName">Gin Tonic</p>
+        <p id="JapaneseDrinkName">ジントニック</p>
+        <p id="englishDrinkName">Campari Soda</p>
+        <p id="JapaneseDrinkName">カンパリソーダ</p>
+        <p id="englishDrinkName">Campari Orange</p>
+        <p id="JapaneseDrinkName">カンパリオレンジ</p>
+        <p id="englishDrinkName">Campari Grapefruit</p>
+        <p id="JapaneseDrinkName">カンパリグレープフルーツ</p>
+        <p id="englishDrinkName">Spumoni</p>
+        <p id="JapaneseDrinkName">スプモーニ</p>
+        <p id="englishDrinkName">Cassis Soda</p>
+        <p id="JapaneseDrinkName">カシスソーダ</p>
+        <p id="englishDrinkName">Cassis Orange</p>
+        <p id="JapaneseDrinkName">カシスオレンジ</p>
+        <p id="englishDrinkName">Cassis Grapefruit</p>
+        <p id="JapaneseDrinkName">カシスグレープフルーツ</p>
+        <p id="englishDrinkName">Vodka Tonic</p>
+        <p id="JapaneseDrinkName">ウォッカトニック</p>
+        <p id="englishDrinkName">Moscow Mule</p>
+        <p id="JapaneseDrinkName">モスコミュール</p>
+        <p id="englishDrinkName">China Blue</p>
+        <p id="JapaneseDrinkName">チャイナブルー</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="specialDrinkList">
+    <img id="specialDrinkImg" src="./WeddingResource/IMG_1870.jpg">
+
+  </div>
+
+  <div id="seatingList">
+    <!-- <h2>Seat</h2>  -->
+    <div class="firstRow">
+        <div class="seat1">新郎</div>
+        <div class="seat2">新婦</div>
+    </div>
+
+    <div class="attendantSeatRow">
+      <div class="seatArea">
+        <div class="attendantName">槌井優様<br>若井夢之介様<br>堀江美帆様</div>
+        <div class="attendantSeat">デール</div>
+        <div class="attendantName">安居虹希様<br>綾部陽太様<br>池田結香様</div>
+      </div>
+      <div class="seatArea">
+        <div class="attendantName">釜木美緒様<br>関口瑛美様<br>小泉妙子様<br>逸見佳歩<br>田口若波</div>
+        <div class="attendantSeat">チップ</div>
+        <div class="attendantName">後藤志帆様<br>岩本尚子様</div>
+      </div>
+    </div>
+    <div class="attendantSeatRow">
+      <div class="seatArea">
+        <div class="attendantName">長南翔様<br>藤田匠様<br>浅野龍様</div>
+        <div class="attendantSeat">グーフィー</div>
+        <div class="attendantName">成澤翼様<br>熊谷孝一様<br>鈴木海斗様</div>
+      </div>
+      
+      <div class="seatArea">
+        <div class="attendantName">石田大輝様<br>生野大洋様<br>石川将成様</div>
+        <div class="attendantSeat">ジーニー</div>
+        <div class="attendantName">広部結様<br>竹下紫萌様<br>石井麻里子様</div>
+      </div>
+      
+      <div class="seatArea">
+        <div class="attendantName">鈴木克子様<br>大東美江子様<br>大東富雄様</div>
+        <div class="attendantSeat">プルート</div>
+        <div class="attendantName">石渡瑞樹様<br>石渡悠伍くん<br>石渡慶美様</div>
+      </div>
+      
+    </div>
+    <div class="attendantSeatRow">
+      <div class="seatArea">
+        <div class="attendantName">髙木基成様<br>髙木利雄様<br>髙木冷子様</div>
+        <div class="attendantSeat">ニモ</div>
+        <div class="attendantName">伊藤紗摘様<br>伊藤雅子様</div>
+      </div>
+      
+      <div class="seatArea">
+        <div class="attendantName">石渡一樹様<br>石渡愛莉様<br>小沢洋子様</div>
+        <div class="attendantSeat">ドナルド</div>
+        <div class="attendantName">石渡雅一様<br>石渡裕子様<br>小沢真様</div>
+      </div>
+    </div>
+    <div class="seatAreaBottomImg">
+      <img id="seatingListBottomLeftImg" src="./WeddingResource/座席表枠左下.png">
+      <img id="seatingListBottomRightImg" src="./WeddingResource/座席表枠右下.png">
+    </div>
+  </div>
+
+  <!-- 背景画像設定用Headerクラス -->
+  <header id="header">
+    <!-- <div class="overlay1"></div> -->
+  </header>
+
+  <div id="thanksMessage">
+    <!-- <p>結婚式へ参加ありがとうございます</p>  -->
+
+    <div id="video-area">
+      <video id="video" poster="IMG_1683.jpg" playsinline muted autoplay>
+        <source src="./WeddingResource/Video_d3cf8ccfa7e64d15bf8d6ce4f57cccd4.mp4" type="video/mp4">
+        <source src="./WeddingResource/Video_d3cf8ccfa7e64d15bf8d6ce4f57cccd4.ogv" type="video/ogv">
+        <source src="./WeddingResource/Video_d3cf8ccfa7e64d15bf8d6ce4f57cccd4.webm" type="video/webm">
+        <p>動画を再生できる環境ではありません。</p>
+      </video>
+    <!--/video-area--></div>
+
+    <div class="message">
+      <p>結婚式へ参加ありがとうございます<br>楽しいひとときをお過ごしください</p>
+    </div>
+
+  <!--/thanksMessage--></div>
+
+</body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="./WeddingJavaScript/jquery.arctext.js"></script>
+  <script language="javascript" type="text/javascript">
+    var courseListElement = document.getElementById('courseList'); // 移動させたい位置の要素を取得
+    var courseListRect = courseListElement.getBoundingClientRect();
+    var courseListPosition = courseListRect.top;    // 一番上からの位置を取得
+
+    function scrollToCourseList() {
+      scrollTo(0, courseListPosition);
+    }
+
+    var drinkListElement = document.getElementById('drinkList'); 
+    var drinkListRect = drinkListElement.getBoundingClientRect();
+    var drinkListPosition = drinkListRect.top;    
+    function scrollToDrinkList() {
+      scrollTo(0, drinkListPosition);
+    }
+
+    var specialDrinkListElement = document.getElementById('specialDrinkList'); 
+    var specialDrinkListRect = specialDrinkListElement.getBoundingClientRect();
+    var specialDrinkListPosition = specialDrinkListRect.top;   
+    function scrollToSpecialDrinkList() {
+      scrollTo(0, specialDrinkListPosition);
+    }
+
+    var seatingListElement = document.getElementById('seatingList'); 
+    var seatingListRect = seatingListElement.getBoundingClientRect();
+    var seatingListPosition = seatingListRect.top;  
+    function scrollToSeatingList() {
+      scrollTo(0, seatingListPosition);
+    }
+
+    var thanksMessageElement = document.getElementById('thanksMessage'); 
+    var thanksMessageRect = thanksMessageElement.getBoundingClientRect();
+    var thanksMessagePosition = thanksMessageRect.top;  
+    function scrollToThanksMessage() {
+      scrollTo(0, thanksMessagePosition);
+    }
+
+
+    jQuery(function() {
+    var pagetop = $('.pageTop');   
+    pagetop.hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {  //100pxスクロールしたら表示
+            pagetop.fadeIn();
+        } else {
+            pagetop.fadeOut();
+        }
+    });
+    pagetop.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500); //0.5秒かけてトップへ移動
+        return false;
+    });
+  });
+
+  </script>
+<!--   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="/Users/itoushougo/Desktop/結婚式HTML/backgroundScript.js"></script> -->
+
+</html>
+
+<!--
+poster：動画ファイルが利用できない環境で代替表示される画像
+webkit-playsinline：iOS 9までのSafari用インライン再生指定
+playsinline：iOS 10以降のSafari用インライン再生指定
+muted：音声をミュートさせる
+autoplay：動画を自動再生させる
+loop：動画をループさせる
+controls：コントロールバーを表示する
+    -->

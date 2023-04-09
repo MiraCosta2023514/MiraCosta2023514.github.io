@@ -1,0 +1,47 @@
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 4vh;
+}
+
+nav ul li {
+  font-size: 1.5vh;
+  padding: 10px;
+  display: inline-block;
+}
+
+/*li {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+}*/
+
+#headerArea a {
+  text-decoration: none;
+  color: white; 
+  background: -webkit-linear-gradient(bottom right, #FFF, #F2CC00 5%, #FFF 10%, #D9B700 15%, #FFF 20%, #F2CC00 25%, 
+  #FFF 30%, #D9B700 35%, #FFF 40%, #F2CC00 45%, #FFF 50%, #D9B700 55%, #FFF 60%, #F2CC00 65%,
+   #FFF 70%, #D9B700 75%, #FFF 80%, #F2CC00 85%, #FFF 90%, #D9B700 95%, #FFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#headerArea {
+/*  background: rgba(35, 91, 200, 0.8); */
+background-color:#020E34;/*背景色*/
+/*background-image: url("/Users/itoushougo/Desktop/結婚式HTML/23527262.jpg");
+background-repeat: no-repeat;
+background-size: 30%;
+background-position: top right;*/
+
+  position: fixed;
+  z-index:30;
+  width: 100%;
+  top: 0;
+  left: 0;
+}

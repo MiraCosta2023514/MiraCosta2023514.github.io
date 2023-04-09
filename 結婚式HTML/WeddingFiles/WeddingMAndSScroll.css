@@ -1,0 +1,360 @@
+@font-face {
+  font-family: 'DisneyForPC'; 
+  src: url("../fonts/waltograph42-webfont.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'DisneyForPhone'; 
+  src: url('../fonts/waltograph42.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Harenosora'; 
+  src: url('../fonts/Harenosora.otf') format('opentype');
+}
+
+
+html, body {
+	width: 100%;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	background-color:#020E34;
+}
+
+.background:before{
+  content:"";
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  margin-top: 20vh;
+/*  z-index:1;*/
+  width:100%;
+  height:100vh;
+  background-image: url("../WeddingResource/IMG_1717.jpg");
+  background-size:cover;
+  background-position:center center;
+}
+
+.background:after {
+
+}
+
+@keyframes anime { 
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+    10% {
+/*        transform: scale(1.05);*/
+        opacity: 1;
+    }
+    40% {
+/*        transform: scale(1.06);*/
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+    50% {
+/*        transform: scale(1.1);*/
+        opacity: 0;
+    }
+    100% { opacity: 0 }
+}
+
+#backgroundTrandition {
+    position: absolute;
+    top: 0; 
+    left: 0;  
+    margin-top: 20vh; 
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+    background-attachment: fixed;
+    padding: 0px;  
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    opacity: 0;
+/*    -webkit-animation: anime 40s linear 0s infinite ;*/
+    animation: anime 40s linear 0s infinite;
+}
+
+#backgroundTrandition:nth-child(1) { 
+    background-image: url("../WeddingResource/IMG_1712.jpg");
+    animation-delay: 10s;
+}
+#backgroundTrandition:nth-child(2) {
+    background-image: url("../WeddingResource/IMG_1716.jpg");
+/*    -webkit-animation-delay: 10s;*/
+    animation-delay: 20s;
+}
+#backgroundTrandition:nth-child(3) {
+    background-image: url("../WeddingResource/IMG_1717.jpg");
+/*    -webkit-animation-delay: 20s;*/
+    animation-delay: 30s;
+}
+
+.title {
+	text-align: center;
+/*	vertical-align: middle;*/
+	height: 100vh;
+	position: relative;
+	z-index:10;
+	width:100%;
+
+	display: inline-block;	
+}
+
+#titleText {
+	font-family:'DisneyForPC','DisneyForPhone';
+	font-size: 10vh;
+	text-align: center;
+	z-index: 10;
+	justify-content: center;
+		margin-top: 25vh;
+	background: -webkit-linear-gradient(bottom right, #FFF, #F2CC00 5%, #FFF 10%, #D9B700 15%, #FFF 20%, #F2CC00 25%, 
+	#FFF 30%, #D9B700 35%, #FFF 40%, #F2CC00 45%, #FFF 50%, #D9B700 55%, #FFF 60%, #F2CC00 65%,
+	 #FFF 70%, #D9B700 75%, #FFF 80%, #F2CC00 85%, #FFF 90%, #D9B700 95%, #FFF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#courseList{
+	text-align: center;
+	font-size: 1.1vh;
+	position: relative;
+	z-index:20;
+	width:100%;
+	height: 100vh;
+	background:#FFFEF9;
+	display: inline-block;
+	padding-top: 8vh;
+}
+
+.menu {
+	display: flex;
+	vertical-align: top;
+	justify-content: space-around;
+	font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+#menuTitle {
+	font-size: 4vh;
+	font-family:'DisneyForPC','DisneyForPhone';
+	color: #4D4D4D;
+}
+
+/*見出しに線を入れる*/
+#menuTitle {
+  position: relative;
+  padding: 0 65px;
+}
+
+#menuTitle:before {
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  width: 14%;
+  margin-left: 43%;
+/*  margin-right: 40%;*/
+  height: 2px;
+  content: '';
+  background: #D9B700;
+}
+
+#menuTitle #menuTitleSpan {
+  position: relative;
+  padding: 0 1em;
+  background: #FFFEF9;
+}
+
+#drinkList{
+	height: 100vh;
+	font-size: 1.1vh;
+	position: relative;
+	z-index:20;
+	width:100%;
+	height: 100vh;
+	background:#FFFEF9;
+	display: inline-block;
+	text-align: center;
+	padding-top: 8vh;
+}
+
+.drinkMenu {
+	display: flex;
+	vertical-align: top;
+	justify-content: space-around;
+	text-align: left;
+	font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+#drinkMenuTitle {
+	font-size: 4vh;
+	font-family:'DisneyForPC','DisneyForPhone';
+	color: #4D4D4D;
+	position: relative;
+  padding: 0 65px;
+}
+
+#drinkMenuTitle:before {
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  width: 20%;
+  margin-left: 40%;
+  height: 2px;
+  content: '';
+  background: #D9B700;
+}
+
+#drinkMenuTitle #drinkMenuTitleSpan {
+  position: relative;
+  padding: 0 1em;
+  background: #FFFEF9;
+}
+
+#drinkType {
+	color: #d12e59;
+}
+
+#specialDrinkList{
+	height: 100vh;
+	font-size: 1.2vh;
+	position: relative;
+	z-index:20;
+	width:100%;
+	background-color :#FFFEF9;
+	display: inline-block;
+	text-align: center;
+	padding-top: 8vh;
+}
+
+#specialDrinkImg {
+	height: 90vh;
+	width: 90%;
+}
+
+#specialDrinkImg {
+	position: relative;
+}
+
+#specialDrinkImg::before,
+#specialDrinkImg::after {
+	content: '';
+	position: absolute;
+	transform: rotate(-35deg);
+	width: 70px;
+	height: 25px;
+	background-color: #fff;
+	z-index: 20;
+}
+
+#specialDrinkImg::before {
+	top: -10px;
+	left: -25px;
+	border-bottom: 1px solid #aaa;
+}
+
+#specialDrinkImg::after {
+	bottom: -10px;
+	right: -25px;
+	border-top: 1px solid #aaa;
+}
+
+#seatingList{
+	height: 100vh;
+	font-size: 1.0vh;
+	position: relative;
+	z-index:20;
+	width:100%;
+	text-align: center;
+	background-color: #FFFEF9;
+	display: inline-block;
+	padding-top: 8vh;
+}
+
+.seatAreaBottomImg {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#seatingListBottomLeftImg {
+	height: 13%;
+	width: 13%;
+}
+
+#seatingListBottomRightImg {
+	height: 13%;
+	width: 13%;
+}
+
+
+.firstRow {
+	display: flex;
+	vertical-align: middle;
+	padding-top: 50px;
+	justify-content: center;
+}
+
+.attendantSeatRow {
+	display: flex;
+	justify-content: space-around;
+	vertical-align: middle;
+	padding-top: 50px;
+}
+
+.seat1 {
+	border: solid 1px black;
+	width: 100px;
+	height: 50px;
+}
+.seat2 {
+	border: solid 1px black;
+	width: 100px;
+	height: 50px;
+}
+
+.seatArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attendantSeat {
+	border: solid 1px black;
+	border-radius: 50%;
+	background-color: #FFFEF9;
+	width: 100px;
+	height: 100px;
+	text-align:center;
+  line-height: 100px;
+}
+
+#thanksMessage{
+	text-align: center;
+	color: #f89174;
+	position: relative;
+	z-index:20;
+	width:100%;
+	height: 100vh;
+	background:#FFFEF9;
+	display: inline-block;
+	padding-top: 10vh;
+}
+
+#video{
+	height: 70vh;
+
+}
+
+.message {
+  position: relative;
+  display: inline-block;
+  color: #555;
+  font-size: 1.6vh;
+  font-family: 'Harenosora';
+  height: 20vh;
+}

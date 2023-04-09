@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'DisneyForPC'; 
+  src: url("../fonts/waltograph42-webfont.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'DisneyForPhone'; 
+  src: url('../fonts/waltograph42.otf') format('opentype');
+}
+
+.pageTop{
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+  background: #020E34;
+  opacity: 1.0;
+  border-radius: 50%;
+  z-index: 30;
+}
+.pageTop a{
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+}
+.pageTop a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 50px;
+  color:  #D9B700;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+/*    background: -webkit-linear-gradient(bottom, #FFF, #F2CC00 10%, #FFF 20%, #D9B700 30%, #FFF 40%, #F2CC00 50%, 
+  #FFF 60%, #D9B700 70%, #FFF 80%, #F2CC00 90%, #FFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
