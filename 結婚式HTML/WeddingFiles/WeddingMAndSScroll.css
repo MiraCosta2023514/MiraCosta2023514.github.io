@@ -15,7 +15,7 @@
 
 
 html, body {
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	margin: 0px;
 	padding: 0px;
@@ -101,7 +101,7 @@ html, body {
 	height: 100vh;
 	position: relative;
 	z-index:10;
-	width:100%;
+	width:100vw;
 
 	display: inline-block;	
 }
@@ -125,7 +125,7 @@ html, body {
 	font-size: 1.1vh;
 	position: relative;
 	z-index:20;
-	width:100%;
+	width:100vw;
 	height: 100vh;
 	background:#FFFEF9;
 	display: block;
@@ -153,9 +153,9 @@ html, body {
 
 #menuTitle:before {
   position: absolute;
-  top: calc(50% - 1px);
+  top: calc(50vw - 1px);
   left: 0;
-  width: 14%;
+  width: 14vw;
   margin-left: 43%;
 /*  margin-right: 40%;*/
   height: 2px;
@@ -174,7 +174,7 @@ html, body {
 	font-size: 1.1vh;
 	position: relative;
 	z-index:20;
-	width:100%;
+	width:100vw;
 	height: 100vh;
 	background:#FFFEF9;
 	display: block;
@@ -200,10 +200,10 @@ html, body {
 
 #drinkMenuTitle:before {
   position: absolute;
-  top: calc(50% - 1px);
+  top: calc(50vw - 1px);
   left: 0;
-  width: 20%;
-  margin-left: 40%;
+  width: 20vw;
+  margin-left: 40vw;
   height: 2px;
   content: '';
   background: #D9B700;
@@ -224,7 +224,7 @@ html, body {
 	font-size: 1.2vh;
 	position: relative;
 	z-index:20;
-	width:100%;
+	width:100vw;
 	background-color :#FFFEF9;
 	display: block;
 	text-align: center;
@@ -268,7 +268,7 @@ html, body {
 	font-size: 1.0vh;
 	position: relative;
 	z-index:20;
-	width:100%;
+	width:100vw;
 	text-align: center;
 	background-color: #FFFEF9;
 	display: block;
@@ -338,7 +338,7 @@ html, body {
 	color: #f89174;
 	position: relative;
 	z-index:20;
-	width:100%;
+	width:100vw;
 	height: 100vh;
 	background:#FFFEF9;
 	display: block;
