@@ -24,17 +24,17 @@ html, body {
 
 .background:before{
   content:"";
-  display:block;
+  display:inline-block;
   position:fixed;
   top:0;
   left:0;
   margin-top: 20vh;
 /*  z-index:1;*/
-  width:100%;
+  width:100vw;
   height:100vh;
   background-image: url("../WeddingResource/IMG_1717.jpg");
   background-size:cover;
-  background-position:center center;
+  background-position: center;
 }
 
 .background:after {
@@ -62,15 +62,15 @@ html, body {
     100% { opacity: 0 }
 }
 
-#backgroundTrandition {
-    position: absolute;
+#backgroundTrandition:before {
+    position:fixed;
     top: 0; 
     left: 0;  
     margin-top: 20vh; 
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     z-index: 0;
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
     padding: 0px;  
     background-size: cover;
     background-position: center;
@@ -232,8 +232,8 @@ html, body {
 }
 
 #specialDrinkImg {
-	height: 90vh;
-	width: 90%;
+	height: auto;
+	width: 90vh;
 }
 
 #specialDrinkImg {
