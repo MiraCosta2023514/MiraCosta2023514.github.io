@@ -24,7 +24,7 @@ html, body {
 
 .background:before{
   content:"";
-  display:inline-block;
+  display:block;
   position:fixed;
   top:0;
   left:0;
@@ -74,7 +74,7 @@ html, body {
     padding: 0px;  
     background-size: cover;
     background-position: center;
-    display: inline-block;
+    display: block;
     opacity: 0;
 /*    -webkit-animation: anime 40s linear 0s infinite ;*/
     animation: anime 40s linear 0s infinite;
@@ -128,7 +128,7 @@ html, body {
 	width:100%;
 	height: 100vh;
 	background:#FFFEF9;
-	display: inline-block;
+	display: block;
 	padding-top: 8vh;
 }
 
@@ -177,7 +177,7 @@ html, body {
 	width:100%;
 	height: 100vh;
 	background:#FFFEF9;
-	display: inline-block;
+	display: block;
 	text-align: center;
 	padding-top: 8vh;
 }
@@ -226,7 +226,7 @@ html, body {
 	z-index:20;
 	width:100%;
 	background-color :#FFFEF9;
-	display: inline-block;
+	display: block;
 	text-align: center;
 	padding-top: 8vh;
 }
@@ -271,7 +271,7 @@ html, body {
 	width:100%;
 	text-align: center;
 	background-color: #FFFEF9;
-	display: inline-block;
+	display: block;
 	padding-top: 8vh;
 }
 
@@ -341,7 +341,7 @@ html, body {
 	width:100%;
 	height: 100vh;
 	background:#FFFEF9;
-	display: inline-block;
+	display: block;
 	padding-top: 10vh;
 }
 
