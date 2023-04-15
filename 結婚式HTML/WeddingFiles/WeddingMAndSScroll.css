@@ -15,12 +15,12 @@
 
 
 html, body {
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	margin: 0px;
 	padding: 0px;
 	background-color:#020E34;
-	overflow-x: hidden;
+/*	overflow-x: hidden;*/
 }
 
 .background:before{
@@ -31,7 +31,7 @@ html, body {
   left:0;
   margin-top: 20vh;
 /*  z-index:1;*/
-  width:100vw;
+  width:100%;
   height:100vh;
   background-image: url("../WeddingResource/IMG_1717.jpg");
   background-size:cover;
@@ -66,7 +66,7 @@ html, body {
     left: 0;  
     margin-top: 20vh; 
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     z-index: 0;
 /*    background-attachment: fixed;*/
     padding: 0px;  
@@ -99,18 +99,18 @@ html, body {
 	height: 100vh;
 	position: relative;
 	z-index:10;
-	width:100vw;
+	width:100%;
 
-	display: inline-block;	
+	display: block;	
 }
 
 #titleText {
-	font-family:'DisneyForPC','DisneyForPhone';
-	font-size: 10vh;
+	font-family:'DisneyForPhone';
+	font-size: 7vh;
 	text-align: center;
 	z-index: 10;
 	justify-content: center;
-		margin-top: 25vh;
+	margin-top: 25vh;
 	background: -webkit-linear-gradient(bottom right, #FFF, #F2CC00 5%, #FFF 10%, #D9B700 15%, #FFF 20%, #F2CC00 25%, 
 	#FFF 30%, #D9B700 35%, #FFF 40%, #F2CC00 45%, #FFF 50%, #D9B700 55%, #FFF 60%, #F2CC00 65%,
 	 #FFF 70%, #D9B700 75%, #FFF 80%, #F2CC00 85%, #FFF 90%, #D9B700 95%, #FFF);
@@ -123,7 +123,7 @@ html, body {
 	font-size: 1vh;
 	position: relative;
 	z-index:20;
-	width:100vw;
+	width:100%;
 	height: 100vh;
 	background:#FFFEF9;
 	display: block;
@@ -153,8 +153,8 @@ html, body {
   position: absolute;
   top: calc(50% - 1px);
   left: 0;
-  width: 14vw;
-  margin-left: 43vw;
+  width: 14%;
+  margin-left: 43%;
 /*  margin-right: 40%;*/
   height: 2px;
   content: '';
@@ -168,11 +168,10 @@ html, body {
 }
 
 #drinkList{
-	height: 100vh;
 	font-size: 1vh;
 	position: relative;
 	z-index:20;
-	width:100vw;
+	width:100%;
 	height: 100vh;
 	background:#FFFEF9;
 	display: block;
@@ -200,8 +199,8 @@ html, body {
   position: absolute;
   top: calc(50% - 1px);
   left: 0;
-  width: 20vw;
-  margin-left: 40vw;
+  width: 20%;
+  margin-left: 40%;
   height: 2px;
   content: '';
   background: #D9B700;
@@ -218,28 +217,53 @@ html, body {
 }
 
 #specialDrinkList{
-	height: 100vh;
 	font-size: 1vh;
 	position: relative;
 	z-index:20;
-	width:100vw;
-	background-color :#FFFEF9;
+	width:100%;
+	height: 100vh;
+	background :#FFFEF9;
 	display: block;
 	text-align: center;
 	padding-top: 8vh;
 }
 
+#specialDrinkMenuTitle {
+	font-size: 4vh;
+	font-family:'DisneyForPhone';
+	color: #4D4D4D;
+	position: relative;
+  padding: 0 65px;
+}
+
+#specialDrinkMenuTitle:before {
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  width: 30%;
+  margin-left: 35%;
+  height: 2px;
+  content: '';
+  background: #D9B700;
+}
+
+#specialDrinkMenuTitle #specialDrinkMenuTitleSpan {
+  position: relative;
+  padding: 0 1em;
+  background: #FFFEF9;
+}
+
 #specialDrinkImg {
 	height: auto;
-	width: auto;
+	width: 80%;
 }
 
 #seatingList{
-	height: 100vh;
 	font-size: 1vh;
 	position: relative;
 	z-index:20;
-	width:100vw;
+	width:100%;
+	height: 100vh;
 	text-align: center;
 	background-color: #FFFEF9;
 	display: block;
@@ -309,7 +333,7 @@ html, body {
 	color: #f89174;
 	position: relative;
 	z-index:20;
-	width:100vw;
+	width:100%;
 	height: 100vh;
 	background:#FFFEF9;
 	display: block;
