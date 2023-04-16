@@ -231,15 +231,15 @@ html, body {
 	font-family:'DisneyForPC','DisneyForPhone';
 	color: #4D4D4D;
 	position: relative;
-  padding: 0 65px;
+	padding: 0 30px;
 }
 
 #specialDrinkMenuTitle:before {
   position: absolute;
   top: calc(50% - 1px);
   left: 0;
-  width: 30%;
-  margin-left: 35%;
+  width: 60%;
+  margin-left: 20%;
   height: 2px;
   content: '';
   background: #D9B700;
@@ -275,13 +275,13 @@ html, body {
 }
 
 #seatingListBottomLeftImg {
-	height: 13%;
-	width: 13%;
+	height: 15%;
+	width: 15%;
 }
 
 #seatingListBottomRightImg {
-	height: 13%;
-	width: 13%;
+	height: 15%;
+	width: 15%;
 }
 
 
@@ -301,13 +301,15 @@ html, body {
 
 .seat1 {
 	border: solid 1px black;
-	width: 100px;
-	height: 50px;
+	width: 60px;
+	height: 30px;
+	vertical-align: middle;
 }
 .seat2 {
 	border: solid 1px black;
-	width: 100px;
-	height: 50px;
+	width: 60px;
+	height: 30px;
+	vertical-align: middle;
 }
 
 .seatArea {
@@ -320,10 +322,10 @@ html, body {
 	border: solid 1px black;
 	border-radius: 50%;
 	background-color: #FFFEF9;
-	width: 100px;
-	height: 100px;
+	width: 60px;
+	height: 60px;
 	text-align:center;
-  line-height: 100px;
+  line-height: 60px;
 }
 
 #thanksMessage{
