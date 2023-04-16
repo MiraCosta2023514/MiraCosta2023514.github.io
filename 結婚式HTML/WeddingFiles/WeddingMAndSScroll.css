@@ -20,7 +20,6 @@ html, body {
 	margin: 0px;
 	padding: 0px;
 	background-color:#020E34;
-/*	overflow-x: hidden;*/
 }
 
 .background:before{
@@ -60,7 +59,7 @@ html, body {
     100% { opacity: 0 }
 }
 
-#backgroundTrandition: {
+#backgroundTrandition:before {
     position:fixed;
     top: 0; 
     left: 0;  
@@ -68,7 +67,6 @@ html, body {
     height: 100vh;
     width: 100%;
     z-index: 0;
-/*    background-attachment: fixed;*/
     padding: 0px;  
     background-size: cover;
     background-position: center;
@@ -105,7 +103,7 @@ html, body {
 }
 
 #titleText {
-	font-family:'DisneyForPhone';
+	font-family:'DisneyForPC','DisneyForPhone';
 	font-size: 7vh;
 	text-align: center;
 	z-index: 10;
@@ -230,7 +228,7 @@ html, body {
 
 #specialDrinkMenuTitle {
 	font-size: 4vh;
-	font-family:'DisneyForPhone';
+	font-family:'DisneyForPC','DisneyForPhone';
 	color: #4D4D4D;
 	position: relative;
   padding: 0 65px;
