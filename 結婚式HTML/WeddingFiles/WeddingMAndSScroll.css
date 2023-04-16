@@ -59,7 +59,7 @@ html, body {
     100% { opacity: 0 }
 }
 
-#backgroundTrandition:before {
+#backgroundTrandition {
     position:fixed;
     top: 0; 
     left: 0;  
