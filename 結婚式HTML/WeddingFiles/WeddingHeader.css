@@ -3,14 +3,14 @@
 nav ul {
   list-style: none;
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: center;
   height: 4vh;
 }
 
 nav ul li {
   font-size: 1.5vh;
-  padding: 10px;
+  padding: 1%;
   display: inline-block;
 }
 
@@ -42,6 +42,9 @@ background-position: top right;*/
   position: fixed;
   z-index:30;
   width: 100%;
+  margin: 0;
+  padding: 0;
   top: 0;
   left: 0;
+  right: 0;
 }
