@@ -259,9 +259,7 @@ html, body {
 }
 
 #specialDrinkImg {
-/*	height: auto;*/
-/*	width: 60%;*/
-	height: 80vh;
+	width: 75%;
 }
 
 #seatingList{
