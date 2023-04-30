@@ -73,7 +73,7 @@ html, body {
     display: block;
     opacity: 0;
 /*    -webkit-animation: anime 40s linear 0s infinite ;*/
-    animation: anime 40s linear 0s infinite;
+    animation: anime 50s linear 0s infinite;
 }
 
 #backgroundTrandition:nth-child(1) { 
@@ -81,14 +81,21 @@ html, body {
     animation-delay: 10s;
 }
 #backgroundTrandition:nth-child(2) {
-    background-image: url("../WeddingResource/IMG_1716.jpg");
-/*    -webkit-animation-delay: 10s;*/
+    background-image: url("../WeddingResource/IMG_1895.JPG");
     animation-delay: 20s;
 }
 #backgroundTrandition:nth-child(3) {
-    background-image: url("../WeddingResource/IMG_1717.jpg");
-/*    -webkit-animation-delay: 20s;*/
+    background-image: url("../WeddingResource/IMG_1892.JPG");
+    height: 80%;
     animation-delay: 30s;
+}
+#backgroundTrandition:nth-child(4) {
+    background-image: url("../WeddingResource/IMG_1890.JPG");
+    animation-delay: 40s;
+}
+#backgroundTrandition:nth-child(5) {
+    background-image: url("../WeddingResource/IMG_1717.jpg");
+    animation-delay: 50s;
 }
 
 .title {
@@ -252,8 +259,9 @@ html, body {
 }
 
 #specialDrinkImg {
-	height: auto;
-	width: 80%;
+/*	height: auto;*/
+/*	width: 60%;*/
+	height: 80vh;
 }
 
 #seatingList{
@@ -301,13 +309,13 @@ html, body {
 
 .seat1 {
 	border: solid 1px black;
-	width: 60px;
+	width: 50px;
 	height: 30px;
 	vertical-align: middle;
 }
 .seat2 {
 	border: solid 1px black;
-	width: 60px;
+	width: 50px;
 	height: 30px;
 	vertical-align: middle;
 }
@@ -322,10 +330,10 @@ html, body {
 	border: solid 1px black;
 	border-radius: 50%;
 	background-color: #FFFEF9;
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	text-align:center;
-  line-height: 60px;
+  line-height: 50px;
 }
 
 #thanksMessage{
