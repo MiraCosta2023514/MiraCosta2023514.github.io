@@ -90,12 +90,8 @@ html, body {
     animation-delay: 30s;
 }
 #backgroundTrandition:nth-child(4) {
-    background-image: url("../WeddingResource/IMG_1890.JPG");
-    animation-delay: 40s;
-}
-#backgroundTrandition:nth-child(5) {
     background-image: url("../WeddingResource/IMG_1717.jpg");
-    animation-delay: 50s;
+    animation-delay: 40s;
 }
 
 .title {
