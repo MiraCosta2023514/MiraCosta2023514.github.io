@@ -48,4 +48,9 @@ background-position: top right;*/
   top: 0;
   left: 0;
   right: 0;
+
+  background-image: url("../WeddingResource/mimoza1left.png"),url("../WeddingResource/mimoza1right.png");     /* 背景画像指定 */
+  background-repeat: no-repeat, no-repeat; 
+  background-size: 10vh, 10vh;
+  background-position: left bottom, right bottom;
 }
